@@ -1,0 +1,57 @@
+------------------------------------------------
+Web Application Penetration Testing Checklist
+------------------------------------------------
+
+1. Contact Form Testing
+2. Proxy Server(s) Testing
+3. Spam Email Filter Testing
+4. Network Firewall Testing
+5. Security Vulnerability Testing
+6. Credential Encryption Testing
+7. Cookie Testing
+8. Testing For Open Ports
+9. Application Login Page Testing
+10. Error Message Testing
+11. HTTP Method(s) Testing
+12. Username and Password Testing
+13. File Scanning
+14. SQL Injection Testing
+15. XSS Testing
+16. Access Permission Testing
+17. User Session Testing
+18. Brute Force Attack Testing
+19. DoS (Denial of Service) Attack Testing
+20. Directory Browsing
+
+------------------------------------------------
+Android Application Penetration Testing Checklist
+------------------------------------------------
+
+1.0 APK files and Information Gathering
+	1.1 Getting APK files and gathering info
+	1.2 Installing on the device or Emulator
+	1.3 APk file analysis by reverse engineering
+	1.4 Static Analysis (manually and automated)
+	1.5 Check App is Debuggable
+	1.6 Check for Typos in custom permission in Android manifest file
+	1.7 Test for Exported Activity
+	1.8 Test for exported broadcast receiver
+
+2.0 Network Analysis
+	2.1 Check for SSL pinning & its bypass
+
+3.0 Dynamic Analysis
+	3.1 Analyzing App logs using pidcat tool
+	3.2 Check app UI is protected against a screenshot of sensitive information
+	3.3 Check root detection mechanism is implemented
+	3.4 Check shared preferences for persistent login
+	3.5 Checking for Keyboard cache
+	3.6 Test for vulnerable Broadcast receivers
+	3.7 Test for Intent Sniffing
+	3.8 Test for Deep Linking Vulnerabilities
+	3.9 Test for WebView Vulnerabilities
+	3.10 Test for local encryption issues
+	3.11 Finding Storage issues from android manifest file
+	3.12 Check location for the secrets
+	3.13 Check for Input Validation issues
+	3.14 Check for Access Control issues
